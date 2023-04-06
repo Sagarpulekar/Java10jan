@@ -1,0 +1,36 @@
+int num=4536;
+float remainder,multiply=1;
+while(num>0);
+{
+remainder=num%10;
+num/=10;
+multiply=multiply*remainder;
+System.out.println("Extracted Number from digit are :"+remainder);
+}
+System.out.println("Multiplication of Extracted Number from digit are :"+multiply);
+
+
+
+int num=6;
+int originalnumber=num;
+float remainder;
+int temp=0;
+while(num>0)
+{
+remainder=num%10;
+num/=10;
+temp=(temp*10)+remainder;
+}
+if(originalnumber==temp){
+System.out.println(+temp+ is a palidrome number);
+}else{
+System.out.println(+temp+ is not a palidrome number);
+}
+
+
+int num=6;
+System.out.println("Factor for "+num+"are");
+for(i=0;i<=num;i++);
+if(num%i){
+System.out.println("+i");
+}
